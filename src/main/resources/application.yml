@@ -22,8 +22,7 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          issuer-uri: http://localhost:8180/realms/bankcore
-		  
+          issuer-uri: http://localhost:8180/realms/bankcore	  		  
 #API Gateway = Réceptionniste d'un hôtel
 #→ Reçoit les clients
 #→ Les dirige vers la bonne chambre
